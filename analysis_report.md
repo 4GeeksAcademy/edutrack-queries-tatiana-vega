@@ -73,9 +73,14 @@ Resultado: Se actualizaron 2 registros (IDs 10 y 11) asignando el valor 'Pending
 ---
 
 ### Q8: Depuración de cuentas de prueba
-Se eliminaron mediante `DELETE` 2 inscripciones cuyos correos finalizaban con el dominio `@test.com`.
 
----
+
+| id | student_id | student_name | student_email         | course_id | course_title      | category    | enrollment_date | completion_percentage | passed | monthly_fee_paid | instructor  |
+| -- | ---------- | ------------ | --------------------- | --------- | ----------------- | ----------- | --------------- | --------------------- | ------ | ---------------- | ----------- |
+| 13 | 8          | James Miller | james.miller@test.com | 1         | Intro to Python   | Programming | 2024-05-22      | 30                    | false  | 49.99            | Marta López |
+| 14 | 9          | Alex Chen    | alex.chen@test.com    | 2         | Web Design Basics | Design      | 2024-06-30      | 10                    | false  | 39.99            | Carlos Vega |
+
+Resultado: Se eliminaron 2 registros correspondientes a correos de prueba (@test.com).
 
 ### Q9: Distribución de inscripciones por categoría
 - **Programming:** 7 inscripciones
