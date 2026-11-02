@@ -30,9 +30,11 @@ Identificación de estudiantes con avance menor al 10% para activar alertas de r
 ---
 
 ### Q3: Inscripciones sin instructor asignado
-Se identificaron 2 registros donde la columna `instructor` tenía valor `NULL` (IDs 4 y 12).
 
----
+| id | student_id | student_name  | student_email                      | course_id | course_title       | category | enrollment_date | completion_percentage | passed | monthly_fee_paid | instructor |
+| -- | ---------- | ------------- | ---------------------------------- | --------- | ------------------ | -------- | --------------- | --------------------- | ------ | ---------------- | ---------- |
+| 10 | 5          | Yuki Nakamura | yuki.nakamura@student.edutrack.com | 6         | UI/UX Fundamentals | Design   | 2024-10-11      | 0                     | false  | 44.99            | null       |
+| 11 | 6          | Pierre Dubois | pierre.dubois@student.edutrack.com | 6         | UI/UX Fundamentals | Design   | 2024-11-05      | 0                     | false  | 44.99            | null       |
 
 ### Q4: Top 5 estudiantes con mayor porcentaje sin aprobar
 Estudiantes con alto nivel de avance pero condición `passed = false`:
