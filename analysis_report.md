@@ -63,9 +63,8 @@ Identificación de estudiantes con avance menor al 10% para activar alertas de r
 | 6  | 3          | Lucia Fernandes | lucia.fernandes@student.edutrack.com | 4         | Digital Marketing 101  | Marketing   | 2024-07-01      | 3                     | false  | 29.99            | Lucia Prades |
 
 ### Q6: Inserción de registro faltante
-Se ejecutó exitosamente el `INSERT` para crear la inscripción ID 18 perteneciente a **Lucia Fernandes** en el curso *Advanced Python* con cuota de 69.99 USD.
 
----
+Se insertó exitosamente el registro ID 18 para Lucia Fernandes en Advanced Python.
 
 ### Q7: Normalización de instructores no asignados
 Se realizó un `UPDATE` afectando a 2 filas, reemplazando el valor `NULL` por el texto `'Pending assignment'`.
