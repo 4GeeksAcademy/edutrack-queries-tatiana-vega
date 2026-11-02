@@ -37,12 +37,14 @@ Identificación de estudiantes con avance menor al 10% para activar alertas de r
 | 11 | 6          | Pierre Dubois | pierre.dubois@student.edutrack.com | 6         | UI/UX Fundamentals | Design   | 2024-11-05      | 0                     | false  | 44.99            | null       |
 
 ### Q4: Top 5 estudiantes con mayor porcentaje sin aprobar
-Estudiantes con alto nivel de avance pero condición `passed = false`:
-1. **Priya Sharma** (88% - Data Analysis with SQL)
-2. **Emily Watson** (85% - Intro to Python)
-3. **Carlos Mendoza** (78% - Frontend React)
-4. **Ana Gómez** (70% - Data Analysis with SQL)
-5. **Klaus Weber** (65% - Web Design Basics)
+
+| student_name  | student_email                      | course_title           | completion_percentage | passed |
+| ------------- | ---------------------------------- | ---------------------- | --------------------- | ------ |
+| Emily Watson  | emily.watson@student.edutrack.com  | Web Design Basics      | 60                    | false  |
+| Priya Sharma  | priya.sharma@student.edutrack.com  | Intro to Python        | 55                    | false  |
+| Yuki Nakamura | yuki.nakamura@student.edutrack.com | Data Analysis with SQL | 45                    | false  |
+| Emily Watson  | emily.watson@student.edutrack.com  | Advanced Python        | 40                    | false  |
+| James Miller  | james.miller@test.com              | Intro to Python        | 30                    | false  |
 
 ---
 
