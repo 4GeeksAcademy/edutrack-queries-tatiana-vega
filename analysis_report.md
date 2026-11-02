@@ -20,11 +20,12 @@ Filtro aplicado para obtener a los estudiantes inscritos en la materia *Intro to
 ### Q2: Inscripciones en riesgo de abandono (< 10%)
 Identificación de estudiantes con avance menor al 10% para activar alertas de retención:
 
-| student_name | student_email | course_title | completion_percentage |
-| :--- | :--- | :--- | :--- |
-| Lucia Fernandes | lucia.fernandes@student.edutrack.com | Web Design Basics | 0% |
-| Yuki Nakamura | yuki.nakamura@student.edutrack.com | Data Analysis with SQL | 5% |
-| Pierre Dubois | pierre.dubois@student.edutrack.com | Intro to Python | 8% |
+| student_name    | student_email                        | course_title          | completion_percentage |
+| --------------- | ------------------------------------ | --------------------- | --------------------- |
+| Lucia Fernandes | lucia.fernandes@student.edutrack.com | Web Design Basics     | 5                     |
+| Lucia Fernandes | lucia.fernandes@student.edutrack.com | Digital Marketing 101 | 3                     |
+| Yuki Nakamura   | yuki.nakamura@student.edutrack.com   | UI/UX Fundamentals    | 0                     |
+| Pierre Dubois   | pierre.dubois@student.edutrack.com   | UI/UX Fundamentals    | 0                     |
 
 ---
 
