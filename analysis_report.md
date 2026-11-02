@@ -83,10 +83,13 @@ Resultado: Se actualizaron 2 registros (IDs 10 y 11) asignando el valor 'Pending
 Resultado: Se eliminaron 2 registros correspondientes a correos de prueba (@test.com).
 
 ### Q9: Distribución de inscripciones por categoría
-- **Programming:** 7 inscripciones
-- **Design:** 4 inscripciones
-- **Data:** 3 inscripciones
-- **Marketing:** 2 inscripciones
+
+| category    | total_inscripciones |
+| ----------- | ------------------- |
+| Marketing   | 2                   |
+| Programming | 7                   |
+| Design      | 4                   |
+| Data        | 3                   |
 
 ---
 
