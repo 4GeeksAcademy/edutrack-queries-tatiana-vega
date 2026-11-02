@@ -67,7 +67,8 @@ Identificación de estudiantes con avance menor al 10% para activar alertas de r
 Se insertó exitosamente el registro ID 18 para Lucia Fernandes en Advanced Python.
 
 ### Q7: Normalización de instructores no asignados
-Se realizó un `UPDATE` afectando a 2 filas, reemplazando el valor `NULL` por el texto `'Pending assignment'`.
+
+Resultado: Se actualizaron 2 registros (IDs 10 y 11) asignando el valor 'Pending assignment' en la columna instructor donde su valor era NULL.
 
 ---
 
