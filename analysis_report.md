@@ -7,13 +7,13 @@ Este documento contiene los resultados obtenidos tras ejecutar la auditoría sob
 ### Q1: Inscripciones en el curso 'Intro to Python'
 Filtro aplicado para obtener a los estudiantes inscritos en la materia *Intro to Python*:
 
-| student_name | student_email | completion_percentage |
-| :--- | :--- | :--- |
-| Emily Watson | emily.watson@student.edutrack.com | 85% |
-| Klaus Weber | klaus.weber@student.edutrack.com | 45% |
-| Marco Rossi | marco.rossi@student.edutrack.com | 92% |
-| James Miller | james.miller@student.edutrack.com | 15% |
-| Priya Sharma | priya.sharma@student.edutrack.com | 60% |
+| student_name | student_email                     | completion_percentage |
+| ------------ | --------------------------------- | --------------------- |
+| Emily Watson | emily.watson@student.edutrack.com | 85                    |
+| Klaus Weber  | klaus.weber@student.edutrack.com  | 92                    |
+| Marco Rossi  | marco.rossi@student.edutrack.com  | 88                    |
+| James Miller | james.miller@test.com             | 30                    |
+| Priya Sharma | priya.sharma@student.edutrack.com | 55                    |
 
 ---
 
