@@ -94,12 +94,15 @@ Resultado: Se eliminaron 2 registros correspondientes a correos de prueba (@test
 ---
 
 ### Q10: Promedio de completado por curso
-- *Web Design Basics:* 42.5%
-- *Data Analysis with SQL:* 56.0%
-- *Intro to Python:* 59.4%
-- *Frontend React:* 78.0%
 
----
+| course_title           | promedio_completado    |
+| ---------------------- | ---------------------- |
+| UI/UX Fundamentals     | 0.00000000000000000000 |
+| Web Design Basics      | 32.5000000000000000    |
+| Digital Marketing 101  | 36.5000000000000000    |
+| Advanced Python        | 45.0000000000000000    |
+| Data Analysis with SQL | 47.6666666666666667    |
+| Intro to Python        | 80.0000000000000000    |
 
 ### Q11: Cursos con alta demanda (> 3 inscripciones)
 - **Intro to Python** (4 inscripciones confirmadas).
