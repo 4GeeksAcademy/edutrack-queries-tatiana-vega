@@ -105,12 +105,21 @@ Resultado: Se eliminaron 2 registros correspondientes a correos de prueba (@test
 | Intro to Python        | 80.0000000000000000    |
 
 ### Q11: Cursos con alta demanda (> 3 inscripciones)
-- **Intro to Python** (4 inscripciones confirmadas).
 
----
-
+| course_title    | total_inscripciones |
+| --------------- | ------------------- |
+| Intro to Python | 4                   |
 ### Q12: Ingresos mensuales totales por categoría
 1. **Programming:** $489.93 USD
 2. **Design:** $279.96 USD
 3. **Data:** $239.97 USD
 4. **Marketing:** $119.98 USD
+
+### Q12: Calcular los ingresos totales por categoría
+
+| category    | ingresos_totales |
+| ----------- | ---------------- |
+| Programming | 409.93           |
+| Data        | 179.97           |
+| Design      | 169.96           |
+| Marketing   | 59.98            |
